@@ -1,0 +1,26 @@
+{
+  "name": "axios-sdk-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "docs"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.0.0",
+    "tsup": "^6.0.0",
+    "typescript": "^5.0.0",
+    "turbo": "^1.10.0",
+    "vitest": "^0.34.0"
+  }
+}

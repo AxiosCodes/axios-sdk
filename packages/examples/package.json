@@ -1,0 +1,12 @@
+{
+  "name": "@axios/examples",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "node": "ts-node src/node-example.ts"
+  },
+  "dependencies": {
+    "@axios/client": "workspace:1.0.0",
+    "@axios/crypto": "workspace:1.0.0"
+  }
+}

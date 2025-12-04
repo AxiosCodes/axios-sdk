@@ -1,0 +1,14 @@
+{
+  "name": "@axios/core",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@axios/types": "workspace:1.0.0",
+    "@axios/utils": "workspace:1.0.0"
+  }
+}
